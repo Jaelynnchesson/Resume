@@ -49,12 +49,17 @@ div {
     padding: 0px;
 }
 .jaeimage {
-
-    text-align: center;
-    padding: 35px;
+    margin-top: 8px;
+    vertical-align: middle;
+    
+  
 }
 .welcomebox {
-
     text-align: center;
-    padding: 35px;
+    padding: 5px;
 }
+
+
+
+
+
