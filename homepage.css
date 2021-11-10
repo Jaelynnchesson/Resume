@@ -80,18 +80,19 @@ h4 {
 
    .grid-container-two {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 55%;
     padding: 0px;
 }
 .jaeimage {
-    margin-top: 8px;
+    margin-top: 5;
+    margin-left: 5;
+    margin-right: 5;
     vertical-align: middle;
-    
   
 }
 .welcomebox {
-    text-align: center;
-    padding: 5px;
+    text-align: left;
+    padding: 1px;
 }
 
 
@@ -102,4 +103,57 @@ h4 {
 body {
     margin: 0;
     font-family: PoppinsSemiBold;
+  }
+
+
+
+  .container-three {
+    display: grid;
+}
+
+.upper {
+    background-color: lightblue;
+    text-align: center;
+    padding: 35px;
+    grid-column: 1 / 3;
+}
+.lower {
+    background-color: white;
+    text-align: center;
+    padding: 35px;
+    grid-column: 1 / 3;
+}
+.image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-column: 3 / auto;
+    grid-row: 1 / 3;
+}
+
+
+
+
+
+.container {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    margin: 30px;
+  }
+  
+  .box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background: #393C5C;
+  }
+  
+  .overlay {
+    z-index: 190;
+    margin: 30px;
+    background: #8C94E1;
   }
