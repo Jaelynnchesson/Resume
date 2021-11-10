@@ -1,3 +1,4 @@
+/* top navigation */
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #393C5C;
@@ -25,17 +26,10 @@
     background-color: #8C94E1;
     color: white;
   }
+/* top navigation */
 
-  /* END NAV*/
 
-
-  div {
-    display: block;
-       }
-       
-   
-   
-   @font-face {
+@font-face {
     font-family: PoppinsThin;
     src: url(poppins/Poppins-Thin.ttf);
   }
@@ -73,35 +67,4 @@ h4 {
     font-family: "PoppinsThin";
        line-height: 1.5 ;
        color: black;
-}
-
-   .grid-container-one {
-       display: grid;
-       grid-template-columns: 50% 50%;
-       margin-top: 10px;
-   }
-   .quickinfo {
-       background-color: lightblue;
-       text-align: center;
-       padding: 35px;
-   }    
-   .profsummary {
-       background-color: rgb(199, 199, 199);
-       text-align: center;
-       padding: 40px
-   }
-
-   .grid-container-two {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.skills {
-    background-color: rgb(199, 199, 199);
-    text-align: left;
-    padding: 35px;
-}    
-.workhistory {
-    background-color: white;
-    text-align: left;
-    padding: 40px
 }
