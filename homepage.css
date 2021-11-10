@@ -13,3 +13,20 @@ div {
        display: grid;
        grid-template-columns: 100%;
    }
+
+
+   .grid-container-two {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0px;
+}
+.jaeimage {
+    background-color: orange;
+    text-align: center;
+    padding: 35px;
+}
+.welcombox {
+    background-color: rgb(241, 241, 123);
+    text-align: center;
+    padding: 35px;
+}
