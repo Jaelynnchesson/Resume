@@ -70,6 +70,13 @@ h4 {
        line-height: 1.5 ;
        color: black;
 }
+
+h5 {
+  font-family: "PoppinsMedium";
+  line-height: 1;
+  color: black;
+  text-align: center;
+}
 /* END FONTS */
    
    .grid-container-one {
@@ -98,8 +105,6 @@ h4 {
 
 
 
-
-
 body {
     margin: 0;
     font-family: PoppinsSemiBold;
@@ -124,11 +129,13 @@ body {
     grid-column: 1 / 3;
 }
 .image {
-    align-items: center;
-    justify-content: center;
+  align-items: right;
+    /* align-items: right;
+    justify-content: right;
     display: flex;
     grid-column: 3 / auto;
-    grid-row: 1 / 3;
+    grid-row: 2 / 3;
+    margin-right: 10px; */
 }
 
 
@@ -139,21 +146,56 @@ body {
     width: 50%;
     height: 50%;
     position: relative;
-    margin: 30px;
+    margin: 10px;
   }
   
   .box {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 70;
+    left: 500;
     opacity: 0.7;
     background: #393C5C;
+    text-align: center;
+    font-size: 70px     
   }
   
   .overlay {
-    z-index: 190;
-    margin: 30px;
+    z-index: 70;
+    margin: 190px;
     background: #8C94E1;
+    text-align: center;
+    font-size: 40px; 
   }
+
+  /* BUTTON */
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  .button1:hover {
+    background-color: #393C5C;
+    color: white;
+  }
+
+  .button1 {background-color: #8C94E1;} 
+
+  /* END BUTTON */
+
+  .container-four {
+    display: grid;
+}
+  .textbox {
+    text-align: center;
+    align-content: center;
+    font-size: 90px;
+}
