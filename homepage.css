@@ -74,7 +74,7 @@ h4 {
 h5 {
   font-family: "PoppinsMedium";
   line-height: 1;
-  color: black;
+  color: white;
   text-align: center;
 }
 /* END FONTS */
@@ -193,9 +193,14 @@ body {
 
   .container-four {
     display: grid;
+    grid-template-columns: 205%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
   .textbox {
+    background-color: lightgrey;
     text-align: center;
     align-content: center;
-    font-size: 90px;
+    font-size: 30px;
+    
 }
